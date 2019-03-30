@@ -8,6 +8,7 @@
             class="lead"
           >Refview berbagai platform investasi berdasarkan pengalaman dari para lender dari group whatsapp, refview di aplikasi, blog, etc</p>
           <div class="cta">
+            <b>
             <a
               class="btn btn-lg btn-primary btn-icon icon-right shadowless"
               href="https://goo.gl/forms/72OsZ6lTMde84YkO2"
@@ -15,6 +16,7 @@
             >
               <fa :icon="['fab', 'whatsapp']" class="fa-lg"/> Daftar di group wa agri invest
             </a>
+            </b>
           </div>
         </div>
         <div class="col-5"></div>
