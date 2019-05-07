@@ -1,101 +1,76 @@
 <template>
-  <div class="container mt-5">
-    <div class="row align-items-center">
-      <div class="col-7">
+  <div class="container">
+    <div class="columns align-items-center">
+      <div class="column is-7">
         <h1>REVIEW PLATFROM INVESTASI</h1>
         <p
           class="lead"
         >Refview berbagai platform investasi berdasarkan pengalaman dari para lender dari group whatsapp, refview di aplikasi, blog, etc</p>
+
+        <br>
+
         <div class="cta">
           <b>
             <a
-              class="btn btn-lg btn-primary btn-icon icon-right shadowless"
+              class="button is-primary shadowless"
               href="https://goo.gl/forms/72OsZ6lTMde84YkO2"
               target="_blank"
             >
               <fa :icon="['fab', 'whatsapp']" class="fa-lg"/>&nbsp;Daftar di group wa agri invest
             </a>
           </b>
+
+           <a
+              class="button is-info shadowless"
+              href="#"
+              target="_blank"
+            >
+             Kode Referal
+            </a>
+
         </div>
-        <div class="col-5"></div>
+      </div>
+      <div class="column is-5">
       </div>
     </div>
+    <br><br>
 
-    <div class="row mt-5 pt-5">
-      <div class="col-md-12">
-        <div class="row">
-          <div class="col">
+    <div class="columns is-multiline mt-5 pt-5">
+      <div class="column is-4" v-for="item in data" :key="item.id">
+        <div class="card  has-equal-height">
+          <div class="card-content">
+            <div class="media">
+              <div class="media-left">
+                <figure class="image ">
+                  <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="media-content">
+                <p class="title is-4">{{ item.title }}</p>
+                <p class="subtitle is-6">@johnsmith</p>
+              </div>
+            </div>
 
-            
-            <div class="card">
-              <div class="card-header">
-                <h4>Crowde</h4>
-              </div>
-              <div class="card-body">This is some text within a card body.</div>
-              <div class="card-footer">Footer Card</div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <div class="card-header">
-                <h4>IGrow</h4>
-              </div>
-              <div class="card-body">This is some text within a card body.</div>
-              <div class="card-footer">Footer Card</div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <div class="card-header">
-                <h4>Growpal</h4>
-              </div>
-              <div class="card-body">This is some text within a card body.</div>
-              <div class="card-footer">Footer Card</div>
+            <div class="content">
+              {{ item.description }}
             </div>
           </div>
         </div>
       </div>
-
-         <div class="col-md-12">
-        <div class="row">
-          <div class="col">
-            <div class="card">
-              <div class="card-header">
-                <h4>Tanijoy</h4>
-              </div>
-              <div class="card-body">This is some text within a card body.</div>
-              <div class="card-footer">Footer Card</div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <div class="card-header">
-                <h4>Ammana</h4>
-              </div>
-              <div class="card-body">This is some text within a card body.</div>
-              <div class="card-footer">Footer Card</div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <div class="card-header">
-                <h4>Tanihub</h4>
-              </div>
-              <div class="card-body">This is some text within a card body.</div>
-              <div class="card-footer">Footer Card</div>
-            </div>
-          </div>
-        </div>
-      </div>
-
     </div>
   </div>
 </template>
 
 <script>
 import Logo from "~/components/Logo.vue";
+import data from "~/static/data/platforms.json"; // Or wherever it is found
 
 export default {
+  data() {
+    return {
+      data: data
+    };
+  },
   components: {
     Logo
   }
