@@ -27,7 +27,7 @@
         "id": "dana-syariah",
         "title": "dana syariah",
         "image": "https://afpi.or.id/fm/Members/3221_151567627cf.png",
-        "description": "Authentication module for Nuxt.js",
+        "description": "",
         "url": "http://danasyariah.id/",
         "tags": "#bulma,#ui"
     },
@@ -35,7 +35,7 @@
         "id": "growpal",
         "title": "growpal",
         "image": "https://static.growpal.co.id/img/logo_growpal_compressed.png",
-        "description": "Authentication module for Nuxt.js",
+        "description": "",
         "url": "https://auth.nuxtjs.org/",
         "tags": "#bulma,#ui"
     },
@@ -43,7 +43,7 @@
         "id": "igrow",
         "title": "igrow",
         "image": "https://adriansiaril.files.wordpress.com/2019/01/logo-igrow-asia-muhaimim-iqbal.jpg?w=640",
-        "description": "Authentication module for Nuxt.js",
+        "description": "",
         "url": "https://auth.nuxtjs.org/",
         "tags": "#bulma,#ui"
     },
@@ -51,7 +51,7 @@
         "id": "ammana",
         "title": "Ammana",
         "image": "data:image/jpeg;base64,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",
-        "description": "Authentication module for Nuxt.js",
+        "description": "",
         "url": "https://ammana.id/",
         "tags": "#bulma,#ui"
     },
@@ -59,7 +59,7 @@
         "id": "amartha",
         "title": "Amartha",
         "image": "https://i1.wp.com/blog.amartha.com/wp-content/uploads/2016/08/cropped-logo_amartha_logogram.png?fit=512%2C512&ssl=1",
-        "description": "Authentication module for Nuxt.js",
+        "description": "",
         "url": "https://amartha.com/",
         "tags": "#bulma,#ui"
     },
@@ -68,8 +68,17 @@
         "id": "Kandangin",
         "title": "Kandangin",
         "image": "https://kandang.in/assets/images/logo-text.554ab0f4.png",
-        "description": "Authentication module for Nuxt.js",
+        "description": "",
         "url": "https://kandang.in",
+        "tags": "#bulma,#ui"
+    },
+
+    {
+        "id": "tanifund",
+        "title": "Tanifund",
+        "image": "https://www.alphajwc.com/wp-content/uploads/2018/01/TF-300x284.png",
+        "description": "",
+        "url": "https://tanifund.com/",
         "tags": "#bulma,#ui"
     }
 ]

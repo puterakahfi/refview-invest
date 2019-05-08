@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="columns align-items-center">
-      <div class="column is-7">
+      <div class="column is-8">
         <h1>REVIEW PLATFROM INVESTASI</h1>
         <p
           class="lead"
@@ -37,9 +37,9 @@
                 </figure>
               </div>
               <div class="media-content">
-                <a :href="item.url">
+                <nuxt-link :to="'/platform/'+item.id">
                   <p class="title is-3">{{ item.title }}</p>
-                </a>
+                </nuxt-link>
 
                 <a href>
                   <fa :icon="['fab', 'instagram']" class="fa-lg"/>
