@@ -19,41 +19,38 @@
               <fa :icon="['fab', 'whatsapp']" class="fa-lg"/>&nbsp;Daftar di group wa agri invest
             </a>
           </b>
-
-           <a
-              class="button is-info shadowless"
-              href="#"
-              target="_blank"
-            >
-             Kode Referal
-            </a>
-
         </div>
       </div>
-      <div class="column is-5">
-      </div>
+      <div class="column is-5"></div>
     </div>
-    <br><br>
+    <br>
+    <br>
 
     <div class="columns is-multiline mt-5 pt-5">
       <div class="column is-4" v-for="item in data" :key="item.id">
-        <div class="card  has-equal-height">
+        <div class="card has-equal-height">
           <div class="card-content">
             <div class="media">
               <div class="media-left">
-                <figure class="image ">
-                  <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                <figure class="image is-128x128">
+                  <img :src="item.image" alt="Placeholder image">
                 </figure>
               </div>
               <div class="media-content">
-                <p class="title is-4">{{ item.title }}</p>
-                <p class="subtitle is-6">@johnsmith</p>
+                <a :href="item.url">
+                  <p class="title is-3">{{ item.title }}</p>
+                </a>
+
+                <a href>
+                  <fa :icon="['fab', 'instagram']" class="fa-lg"/>
+                </a>
+                <a href>
+                  <fa :icon="['fab', 'facebook']" class="fa-lg"/>
+                </a>
               </div>
             </div>
 
-            <div class="content">
-              {{ item.description }}
-            </div>
+            <div class="content">{{ item.description }}</div>
           </div>
         </div>
       </div>
