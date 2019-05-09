@@ -50,6 +50,7 @@
             </div>
 
             <div class="content">{{ item.description }}</div>
+
           </div>
         </div>
       </div>
@@ -60,6 +61,7 @@
 <script>
 import Logo from "~/components/Logo.vue";
 import data from "~/static/data/platforms.json"; // Or wherever it is found
+import { VueStars } from "vue-stars";
 
 export default {
   data() {
@@ -68,7 +70,8 @@ export default {
     };
   },
   components: {
-    Logo
+    Logo,
+    VueStars
   }
 };
 </script>
