@@ -1,15 +1,15 @@
 {
-  "name": "nuxt-cv",
+  "name": "refview-invest",
   "version": "1.0.0",
-  "description": "My neat Nuxt.js project",
+  "description": "Review berbagai platform investasi",
   "author": "puterakahfi",
   "private": true,
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+    "generate": "DEPLOY_ENV=GH_PAGES nuxt generate --no-lock",
+    "deploy": "DEPLOY_ENV=GH_PAGES push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "1.2.14",

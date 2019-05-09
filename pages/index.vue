@@ -1,31 +1,30 @@
 <template>
   <div class="container">
     <div class="columns align-items-center">
-      <div class="column is-8">
-        <h1>REVIEW PLATFROM INVESTASI</h1>
-        <p
-          class="lead"
-        >Refview berbagai platform investasi berdasarkan pengalaman dari para lender dari group whatsapp, refview di aplikasi, blog, etc</p>
+      <div class="column is-12">
+        <section class="hero is-marginless">
+          <div class="hero-body">
+            <h1>REVIEW PLATFROM INVESTASI</h1>
+            <p
+              class="lead"
+            >Refview berbagai platform investasi berdasarkan pengalaman dari para lender dari group whatsapp, refview di aplikasi, blog, etc</p>
 
-        <br>
-
-        <div class="cta">
-          <b>
-            <a
-              class="button is-primary shadowless"
-              href="https://goo.gl/forms/72OsZ6lTMde84YkO2"
-              target="_blank"
-            >
-              <fa :icon="['fab', 'whatsapp']" class="fa-lg"/>&nbsp;Daftar di group wa agri invest
-            </a>
-          </b>
-        </div>
+            <br>
+            <div class="cta">
+              <b>
+                <a
+                  class="button is-info shadowless"
+                  href="https://goo.gl/forms/72OsZ6lTMde84YkO2"
+                  target="_blank"
+                >
+                  <fa :icon="['fab', 'whatsapp']" class="fa-1x"/>&nbsp;Daftar di group wa agri invest
+                </a>
+              </b>
+            </div>
+          </div>
+        </section>
       </div>
-      <div class="column is-5"></div>
     </div>
-    <br>
-    <br>
-
     <div class="columns is-multiline mt-5 pt-5">
       <div class="column is-4" v-for="item in data" :key="item.id">
         <div class="card has-equal-height">
@@ -40,12 +39,12 @@
                 <nuxt-link :to="'/platform/'+item.id">
                   <p class="title is-3">{{ item.title }}</p>
                 </nuxt-link>
-
+                <br>
                 <a href>
-                  <fa :icon="['fab', 'instagram']" class="fa-lg"/>
+                  <fa :icon="['fab', 'instagram']" class="fa-2x"/>
                 </a>
                 <a href>
-                  <fa :icon="['fab', 'facebook']" class="fa-lg"/>
+                  <fa :icon="['fab', 'facebook']" class="fa-2x"/>
                 </a>
               </div>
             </div>
