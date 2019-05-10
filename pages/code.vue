@@ -2,9 +2,9 @@
   <div class="container">
     <div class="columns align-items-center">
       <div class="column is-12">
-        <section class="hero is-marginless is-primary">
+        <section class="hero is-marginless">
           <div class="hero-body ">
-              <h1>KODE REFERAL</h1>
+              <h1>Kode referal</h1>
               <h2 class="subtitle">Gunakan kode referal ketika mendaftar</h2>
           </div>
         </section>

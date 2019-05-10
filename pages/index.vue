@@ -4,16 +4,19 @@
       <div class="column is-12">
         <section class="hero is-marginless">
           <div class="hero-body">
-            <h1>REVIEW PLATFROM INVESTASI</h1>
+            <div class="titleunderline"></div>
+            <h1 class="title is-2">Review Platform Investasi</h1>
             <p
-              class="lead"
-            >Refview berbagai platform investasi berdasarkan pengalaman dari para lender dari group whatsapp, refview di aplikasi, blog, etc</p>
+              class="subtitle is-6"
+            >Refview berbagai platform investasi 
+            <br>
+            berdasarkan pengalaman dari para lender dari group whatsapp, refview di aplikasi, blog, etc</p>
 
             <br>
             <div class="cta">
               <b>
                 <a
-                  class="button is-info shadowless"
+                  class="button is-info is-medium shadowless"
                   href="https://goo.gl/forms/72OsZ6lTMde84YkO2"
                   target="_blank"
                 >
@@ -39,7 +42,10 @@
                 <nuxt-link :to="'/platform/'+item.id">
                   <p class="title is-3">{{ item.title }}</p>
                 </nuxt-link>
-                <br>
+
+
+                <div class="titleunderline"></div> 
+                 <p class="subtitle is-6">{{ item.tags }}</p>
                 <a href>
                   <fa :icon="['fab', 'instagram']" class="fa-2x"/>
                 </a>
@@ -50,7 +56,6 @@
             </div>
 
             <div class="content">{{ item.description }}</div>
-
           </div>
         </div>
       </div>

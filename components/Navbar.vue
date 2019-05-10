@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar container is-paddingless" role="navigation" aria-label="main navigation">
+  <nav class="navbar container" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <nuxt-link to="/" class="navbar-item"><strong>Invest Review</strong></nuxt-link>
 
@@ -19,7 +19,7 @@
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-start">
 
-        <nuxt-link to="/code" class="navbar-item">Kode Referal</nuxt-link>
+        <nuxt-link to="/code" class="navbar-item">kode referal</nuxt-link>
 
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link">More</a>
