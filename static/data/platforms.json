@@ -7,6 +7,25 @@
         "url": "https://www.crowde.co/",
         "tags": "pertanian,peternakan"
     },
+
+
+    {
+        "id": "tanifund",
+        "title": "Bantuternak",
+        "image": "https://bantuternak.com/wp-content/uploads/2018/08/logobt.png",
+        "description": "",
+        "url": "https://bantuternak.com",
+        "tags": "peternakan"
+    },
+
+    {
+        "id": "infishta",
+        "title": "Infishta",
+        "image": "https://infishta.com/assets/logo/logo_infishta_putih_150-a005bf49362818a724cc0e024f0f095e4302dc5c86755d244b259451c8d2a5de.png",
+        "description": "",
+        "url": "https://bantuternak.com",
+        "tags": "perikanan"
+    },
     {
         "id": "vestifarm",
         "title": "vestifarm",

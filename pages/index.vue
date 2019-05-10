@@ -1,16 +1,16 @@
 <template>
   <div class="container">
     <div class="columns align-items-center">
-      <div class="column is-12">
+      <div class="column is-7">
         <section class="hero is-marginless">
           <div class="hero-body">
+
             <div class="titleunderline"></div>
             <h1 class="title is-2">Review Platform Investasi</h1>
-            <p
-              class="subtitle is-6"
-            >Refview berbagai platform investasi 
-            <br>
-            berdasarkan pengalaman dari para lender dari group whatsapp, refview di aplikasi, blog, etc</p>
+            <p class="subtitle is-6">
+              Refview berbagai platform investasi
+              <br>berdasarkan pengalaman dari para lender dari group whatsapp, refview di aplikasi, blog, etc
+            </p>
 
             <br>
             <div class="cta">
@@ -27,6 +27,11 @@
           </div>
         </section>
       </div>
+      <div class="column is-5">
+        <figure class="image">
+          <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/finance_0bdk.svg" alt="Placeholder image">
+        </figure>
+      </div>
     </div>
     <div class="columns is-multiline mt-5 pt-5">
       <div class="column is-4" v-for="item in data" :key="item.id">
@@ -40,12 +45,11 @@
               </div>
               <div class="media-content">
                 <nuxt-link :to="'/platform/'+item.id">
-                  <p class="title is-3">{{ item.title }}</p>
+                  <p class="title is-4">{{ item.title }}</p>
                 </nuxt-link>
 
-
-                <div class="titleunderline"></div> 
-                 <p class="subtitle is-6">{{ item.tags }}</p>
+                <div class="titleunderline"></div>
+                <p class="subtitle is-6">{{ item.tags }}</p>
                 <a href>
                   <fa :icon="['fab', 'instagram']" class="fa-2x"/>
                 </a>
