@@ -1,14 +1,20 @@
 [
     {
-        "id": "1",
-        "title": "crowde",
-        "image": "https://instellar.id/wp-content/uploads/2018/02/crowde-logo-1.jpg",
+        "id": "amartha",
+        "title": "Amartha",
+        "image": "https://i1.wp.com/blog.amartha.com/wp-content/uploads/2016/08/cropped-logo_amartha_logogram.png?fit=512%2C512&ssl=1",
         "description": "",
-        "url": "https://www.crowde.co/",
-        "tags": "pertanian,peternakan"
+        "url": "https://amartha.com/",
+        "tags": "pertanian"
     },
-
-
+    {
+        "id": "ammana",
+        "title": "Ammana",
+        "image": "https://ammana.id/assets/img/ammana-icon.png",
+        "description": "",
+        "url": "https://ammana.id/",
+        "tags": "pembiayaan, umkm"
+    },
     {
         "id": "tanifund",
         "title": "Bantuternak",
@@ -17,30 +23,13 @@
         "url": "https://bantuternak.com",
         "tags": "peternakan"
     },
-
     {
-        "id": "infishta",
-        "title": "Infishta",
-        "image": "https://infishta.com/assets/logo/logo_infishta_putih_150-a005bf49362818a724cc0e024f0f095e4302dc5c86755d244b259451c8d2a5de.png",
+        "id": "1",
+        "title": "crowde",
+        "image": "https://instellar.id/wp-content/uploads/2018/02/crowde-logo-1.jpg",
         "description": "",
-        "url": "https://bantuternak.com",
-        "tags": "perikanan"
-    },
-    {
-        "id": "vestifarm",
-        "title": "vestifarm",
-        "image": "https://vestifarm.com/public/assets/images/vesti-custom4.png",
-        "description": "",
-        "url": "https://vestifarm.com/",
+        "url": "https://www.crowde.co/",
         "tags": "pertanian,peternakan"
-    },
-    {
-        "id": "ternaknesia",
-        "title": "ternaknesia",
-        "image": "https://lh3.googleusercontent.com/dnzsqOoU316K8sxFVGCsQEs9XPgVXEuAGDbrUdbZF0mDtWjlmqYTRLaNfX1CTFi4new",
-        "description": "",
-        "url": "https://ternaknesia.com/",
-        "tags": "peternakan"
     },
     {
         "id": "2",
@@ -59,49 +48,6 @@
         "tags": "perikanan"
     },
     {
-        "id": "igrow",
-        "title": "igrow",
-        "image": "https://adriansiaril.files.wordpress.com/2019/01/logo-igrow-asia-muhaimim-iqbal.jpg?w=640",
-        "description": "",
-        "url": "https://auth.nuxtjs.org/",
-        "tags": "pertanian"
-    },
-    {
-        "id": "ammana",
-        "title": "Ammana",
-        "image": "https://ammana.id/assets/img/ammana-icon.png",
-        "description": "",
-        "url": "https://ammana.id/",
-        "tags": "pembiayaan, umkm"
-    },
-    {
-        "id": "amartha",
-        "title": "Amartha",
-        "image": "https://i1.wp.com/blog.amartha.com/wp-content/uploads/2016/08/cropped-logo_amartha_logogram.png?fit=512%2C512&ssl=1",
-        "description": "",
-        "url": "https://amartha.com/",
-        "tags": "pertanian"
-    },
-
-    {
-        "id": "Kandangin",
-        "title": "Kandangin",
-        "image": "https://kandang.in/assets/images/logo-text.554ab0f4.png",
-        "description": "",
-        "url": "https://kandang.in",
-        "tags": "peternakan"
-    },
-
-    {
-        "id": "tanifund",
-        "title": "Tanifund",
-        "image": "https://www.alphajwc.com/wp-content/uploads/2018/01/TF-300x284.png",
-        "description": "",
-        "url": "https://tanifund.com/",
-        "tags": "pertanian"
-    },
-
-    {
         "id": "tanifund",
         "title": "Griya Investa",
         "image": "https://pbs.twimg.com/profile_images/378800000473058421/ce479bffaef3f604629323397872fd5d_400x400.jpeg",
@@ -110,11 +56,67 @@
         "tags": "property"
     },
     {
+        "id": "infishta",
+        "title": "Infishta",
+        "image": "https://infishta.com/assets/logo/logo_infishta-815dc55113dac6eac0ea413defc1a5b198c2dea089137581ca2e30f5085b7371.png",
+        "description": "",
+        "url": "https://bantuternak.com",
+        "tags": "perikanan"
+    },
+    {
+        "id": "investree",
+        "title": "Investree",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Investree_Hi-res_logo-01.png/1024px-Investree_Hi-res_logo-01.png",
+        "description": "",
+        "url": "https://www.investree.id/",
+        "tags": "pertanian"
+    },
+    {
+        "id": "igrow",
+        "title": "igrow",
+        "image": "https://adriansiaril.files.wordpress.com/2019/01/logo-igrow-asia-muhaimim-iqbal.jpg?w=640",
+        "description": "",
+        "url": "https://auth.nuxtjs.org/",
+        "tags": "pertanian"
+    },
+    {
+        "id": "Kandangin",
+        "title": "Kandangin",
+        "image": "https://kandang.in/assets/images/logo-text.554ab0f4.png",
+        "description": "",
+        "url": "https://kandang.in",
+        "tags": "peternakan"
+    },
+    {
         "id": "tanifund",
         "title": "SyarQ",
         "image": "https://syarq.com/assets/img/logo/logo-tagline.png",
         "description": "",
         "url": "https://tanifund.com/",
         "tags": "cicilan"
+    },
+    {
+        "id": "ternaknesia",
+        "title": "ternaknesia",
+        "image": "https://lh3.googleusercontent.com/dnzsqOoU316K8sxFVGCsQEs9XPgVXEuAGDbrUdbZF0mDtWjlmqYTRLaNfX1CTFi4new",
+        "description": "",
+        "url": "https://ternaknesia.com/",
+        "tags": "peternakan"
+    },
+    {
+        "id": "tanifund",
+        "title": "Tanifund",
+        "image": "https://www.alphajwc.com/wp-content/uploads/2018/01/TF-300x284.png",
+        "description": "",
+        "url": "https://tanifund.com/",
+        "tags": "pertanian"
+    },
+    {
+        "id": "vestifarm",
+        "title": "vestifarm",
+        "image": "https://vestifarm.com/public/assets/images/vesti-custom4.png",
+        "description": "",
+        "url": "https://vestifarm.com/",
+        "tags": "pertanian,peternakan"
     }
 ]

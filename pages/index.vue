@@ -6,7 +6,7 @@
           <div class="hero-body">
 
             <div class="titleunderline"></div>
-            <h1 class="title is-2">Review Platform Investasi</h1>
+            <h1 class="title is-2">Review Platform Investasi</h1> <hr>
             <p class="subtitle is-6">
               Refview berbagai platform investasi
               <br>berdasarkan pengalaman dari para lender dari group whatsapp, refview di aplikasi, blog, etc
@@ -55,6 +55,9 @@
                 </a>
                 <a href>
                   <fa :icon="['fab', 'facebook']" class="fa-2x"/>
+                </a>
+                  <a href>
+                  <fa :icon="['fab', 'twitter']" class="fa-2x"/>
                 </a>
               </div>
             </div>

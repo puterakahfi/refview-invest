@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar container" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <nuxt-link to="/" class="navbar-item"><strong>Invest Review</strong></nuxt-link>
+      <nuxt-link to="/" class="navbar-item"><strong>INVEST</strong>REVIEW</nuxt-link>
 
       <a
         role="button"
