@@ -4,8 +4,12 @@
       <div class="column is-7">
         <section class="hero is-marginless">
           <div class="hero-body">
+            <div class="titleunderline"></div>
+
             <h1>Kode referal</h1>
-            <h2 class="subtitle">Gunakan kode referal ketika mendaftar</h2>
+            <h2
+              class="subtitle"
+            >Gunakan kode referal ketika mendaftar untuk mendapatkan berbagai penawaran menarik</h2>
           </div>
         </section>
 
@@ -21,104 +25,80 @@
       </div>
     </div>
 
-    <div class="columns">
-      <div class="column">
+    <div class="columns is-multiline">
+      <div class="column is-4">
         <nav class="level">
           <div class="level-item has-text-left">
             <div>
-              <span class="title is-marginless">
-                <figure class="image is-128x128">
-                  <img src="https://afpi.or.id/fm/Members/3221_151567627cf.png">
-                </figure>
-              </span>
-            </div>
-          </div>
 
-          <div class="level-item has-text-centered">
-            <div>
-              <p class="heading">KODE</p>
-              <p class="title">456K</p>
+              <div class="titleunderline is-small"></div>
+              <p class="heading">IGrow</p>
+              <p class="title is-2">{{igrow[Math.floor(Math.random() * igrow.length)]}}</p>
             </div>
           </div>
-          <div class="level-item has-text-centered">
+        </nav>
+      </div>
+      <div class="column is-4">
+        <nav class="level">
+          <div class="level-item has-text-left">
             <div>
-              <p class="heading">KODE</p>
-              <p class="title">789</p>
+
+              <div class="titleunderline is-small"></div>
+              <p class="heading">Investree</p>
+              <p class="title is-2">{{investree[Math.floor(Math.random() * investree.length)]}}</p>
             </div>
           </div>
-          <div class="level-item has-text-centered">
+        </nav>
+      </div>
+
+      <div class="column is-4">
+        <nav class="level">
+          <div class="level-item has-text-left">
             <div>
-              <p class="heading">KODE</p>
-              <p class="title">789</p>
-            </div>
-          </div>
-          <div class="level-item has-text-centered">
-            <div>
-              <p class="heading">KODE</p>
-              <p class="title">789</p>
-            </div>
-          </div>
-          <div class="level-item has-text-centered">
-            <div>
-              <p class="heading">KODE</p>
-              <p class="title">789</p>
+              <div class="titleunderline is-small"></div>
+              <p class="heading">Tanifund</p>
+              <p class="title is-2">{{tanifund[Math.floor(Math.random() * tanifund.length)]}}</p>
             </div>
           </div>
         </nav>
       </div>
     </div>
-
-
-    <div class="columns">
-      <div class="column">
-        <nav class="level">
-          <div class="level-item has-text-left">
-            <div>
-              <span class="title is-marginless">
-                <figure class="image is-128x128">
-                  <img src="https://adriansiaril.files.wordpress.com/2019/01/logo-igrow-asia-muhaimim-iqbal.jpg?w=640">
-                </figure>
-              </span>
-            </div>
-          </div>
-
-          <div class="level-item has-text-centered">
-            <div>
-              <p class="heading">KODE</p>
-              <p class="title">456K</p>
-            </div>
-          </div>
-          <div class="level-item has-text-centered">
-            <div>
-              <p class="heading">KODE</p>
-              <p class="title">789</p>
-            </div>
-          </div>
-          <div class="level-item has-text-centered">
-            <div>
-              <p class="heading">KODE</p>
-              <p class="title">789</p>
-            </div>
-          </div>
-          <div class="level-item has-text-centered">
-            <div>
-              <p class="heading">KODE</p>
-              <p class="title">789</p>
-            </div>
-          </div>
-          <div class="level-item has-text-centered">
-            <div>
-              <p class="heading">KODE</p>
-              <p class="title">789</p>
-            </div>
-          </div>
-        </nav>
-      </div>
-    </div>
-
   </div>
 </template>
 
+ <style lang="scss" scoped>
+.level {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  border: 1px none #e6ecf1;
+  border-radius: 6px;
+  background-color: #fff;
+  border: none;
+  transition: all 0.2s ease-in-out;
+  box-shadow: none;
+  padding: 1rem;
+
+  &:hover {
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.04),
+      0 2px 20px 0 rgba(0, 0, 0, 0.06);
+    transform: scale(1.1);
+  }
+}
+</style>
+
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      igrow: ["IGWAKH1982", "IGWSAN1978", "IGWNAS1980"],
+      tanifund: ["7301542"],
+      investree: ["NKBFL"]
+    };
+  }
+};
 </script>

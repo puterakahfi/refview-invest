@@ -51,13 +51,13 @@
                 <div class="titleunderline"></div>
                 <p class="subtitle is-6">{{ item.tags }}</p>
                 <a href>
-                  <fa :icon="['fab', 'instagram']" class="fa-2x"/>
+                  <fa :icon="['fab', 'instagram']" class="fa-1x"/>
                 </a>
                 <a href>
-                  <fa :icon="['fab', 'facebook']" class="fa-2x"/>
+                  <fa :icon="['fab', 'facebook']" class="fa-1x"/>
                 </a>
                   <a href>
-                  <fa :icon="['fab', 'twitter']" class="fa-2x"/>
+                  <fa :icon="['fab', 'twitter']" class="fa-1x"/>
                 </a>
               </div>
             </div>
