@@ -6,10 +6,11 @@
           <div class="hero-body">
 
             <div class="titleunderline"></div>
-            <h1 class="title is-2">Review Platform Investasi</h1> <hr>
+            <h1 class="title is-1">Review Platform Investasi</h1> 
             <p class="subtitle is-6">
               Refview berbagai platform investasi
-              <br>berdasarkan pengalaman dari para lender dari group whatsapp, refview di aplikasi, blog, etc
+              berdasarkan pengalaman dari para lender dari group whatsapp, refview di aplikasi, blog, etc
+              <br>
             </p>
 
             <br>

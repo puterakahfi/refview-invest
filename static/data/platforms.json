@@ -25,7 +25,7 @@
     },
     {
         "id": "1",
-        "title": "crowde",
+        "title": "Crowde",
         "image": "https://instellar.id/wp-content/uploads/2018/02/crowde-logo-1.jpg",
         "description": "",
         "url": "https://www.crowde.co/",
@@ -33,7 +33,7 @@
     },
     {
         "id": "2",
-        "title": "dana syariah",
+        "title": "Dana syariah",
         "image": "https://afpi.or.id/fm/Members/3221_151567627cf.png",
         "description": "",
         "url": "http://danasyariah.id/",
@@ -41,14 +41,14 @@
     },
     {
         "id": "growpal",
-        "title": "growpal",
+        "title": "Growpal",
         "image": "https://static.growpal.co.id/img/logo_growpal_compressed.png",
         "description": "",
         "url": "https://auth.nuxtjs.org/",
         "tags": "perikanan"
     },
     {
-        "id": "tanifund",
+        "id": "griyainvesta",
         "title": "Griya Investa",
         "image": "https://pbs.twimg.com/profile_images/378800000473058421/ce479bffaef3f604629323397872fd5d_400x400.jpeg",
         "description": "",
@@ -73,7 +73,7 @@
     },
     {
         "id": "igrow",
-        "title": "igrow",
+        "title": "Igrow",
         "image": "https://adriansiaril.files.wordpress.com/2019/01/logo-igrow-asia-muhaimim-iqbal.jpg?w=640",
         "description": "",
         "url": "https://auth.nuxtjs.org/",
@@ -88,7 +88,7 @@
         "tags": "peternakan"
     },
     {
-        "id": "tanifund",
+        "id": "Syarq",
         "title": "SyarQ",
         "image": "https://syarq.com/assets/img/logo/logo-tagline.png",
         "description": "",
@@ -96,8 +96,16 @@
         "tags": "cicilan"
     },
     {
-        "id": "ternaknesia",
-        "title": "ternaknesia",
+        "id": "Tanijoy",
+        "title": "Tanijoy",
+        "image": "https://pbs.twimg.com/profile_images/1039085173801771013/TqaAB8Dx_400x400.jpg",
+        "description": "",
+        "url": "https://tanijoy.id/",
+        "tags": "pertanian"
+    },
+    {
+        "id": "Ternaknesia",
+        "title": "Ternaknesia",
         "image": "https://lh3.googleusercontent.com/dnzsqOoU316K8sxFVGCsQEs9XPgVXEuAGDbrUdbZF0mDtWjlmqYTRLaNfX1CTFi4new",
         "description": "",
         "url": "https://ternaknesia.com/",
@@ -113,7 +121,7 @@
     },
     {
         "id": "vestifarm",
-        "title": "vestifarm",
+        "title": "Vestifarm",
         "image": "https://vestifarm.com/public/assets/images/vesti-custom4.png",
         "description": "",
         "url": "https://vestifarm.com/",
