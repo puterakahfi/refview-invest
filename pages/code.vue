@@ -26,38 +26,15 @@
     </div>
 
     <div class="columns is-multiline">
-      <div class="column is-4">
-        <nav class="level">
-          <div class="level-item has-text-left">
-            <div>
-
-              <div class="titleunderline is-small"></div>
-              <p class="heading">IGrow</p>
-              <p class="title is-2">{{igrow[Math.floor(Math.random() * igrow.length)]}}</p>
-            </div>
-          </div>
-        </nav>
-      </div>
-      <div class="column is-4">
-        <nav class="level">
-          <div class="level-item has-text-left">
-            <div>
-
-              <div class="titleunderline is-small"></div>
-              <p class="heading">Investree</p>
-              <p class="title is-2">{{investree[Math.floor(Math.random() * investree.length)]}}</p>
-            </div>
-          </div>
-        </nav>
-      </div>
-
-      <div class="column is-4">
+      <div class="column is-4" :key="code.id" v-for="code in codes">
         <nav class="level">
           <div class="level-item has-text-left">
             <div>
               <div class="titleunderline is-small"></div>
-              <p class="heading">Tanifund</p>
-              <p class="title is-2">{{tanifund[Math.floor(Math.random() * tanifund.length)]}}</p>
+              <p class="heading">{{ code.title }}</p>
+              <p
+                class="title is-2"
+              >{{code.referal[Math.floor(Math.random() * code.referal.length)]}}</p>
             </div>
           </div>
         </nav>
@@ -92,12 +69,12 @@
 </style>
 
 <script>
+import data from "~/static/data/code.json"; // Or wherever it is found
+
 export default {
   data() {
     return {
-      igrow: ["IGWAKH1982", "IGWSAN1978", "IGWNAS1980"],
-      tanifund: ["7301542"],
-      investree: ["NKBFL"]
+      codes: data
     };
   }
 };
