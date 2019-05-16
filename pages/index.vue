@@ -55,8 +55,8 @@
                 </figure>
                 <br>
               </div>
-            
-              <div class="">
+
+              <div class>
                 <nuxt-link :to="'/platform/'+item.id">
                   <p class="title is-4">{{ item.title }}</p>
                 </nuxt-link>
@@ -76,8 +76,8 @@
                 </span>
                 <hr class="is-paddingless">
                 <div class="control">
-                  <b-taglist attached>
-                    <b-tag type="is-success">Rating</b-tag>
+                  <b-taglist attached class="rating">
+                    <b-tag type="is-success"><b>rating</b></b-tag>
                     <b-tag type="is-dark">
                       <fa :icon="['fas', 'star']" class="has-text-warning"/>
                       <fa :icon="['fas', 'star']" class="has-text-warning"/>
@@ -85,7 +85,6 @@
                       <fa :icon="['fas', 'star']" class="has-text-warning"/>&nbsp;
                       <b>3.5</b> / 5
                     </b-tag>
-                    
                   </b-taglist>
                 </div>
               </div>
@@ -116,6 +115,9 @@ export default {
 </script>
 
 <style sccoped>
+.tags.has-addons .tag {
+  font-size: .6em;
+}
 .btn.btn-lg {
   padding: 0.55rem 1.5rem;
   font-size: 14px;
