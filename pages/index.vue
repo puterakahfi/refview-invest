@@ -73,7 +73,8 @@
                   </b-taglist>
                 </div>
               </div>
-            </div> <br>
+            </div>
+            <br>
             <div class="content">
               <p class="subtitle is-size-6">{{ item.description }}</p>
 
@@ -83,7 +84,7 @@
 
               <br>
 
-              <p class="subtitle is-5">
+              <p class="subtitle is-5 links">
                 <span v-if="typeof item.links !== 'undefined'">
                   <span :key="link.url" v-for="link in item.links">
                     <a :href="link.url" target="_blank">
@@ -116,7 +117,38 @@ export default {
 };
 </script>
 
-<style sccoped>
+
+<style lang="scss" scoped>
+.links a {
+  color: grey;
+  &:hover {
+    color: black;
+  }
+
+  .fa-facebook {
+    &:hover {
+      color: #4267b2;
+    }
+  }
+
+  .fa-youtube {
+    &:hover {
+      color: #cd381c;
+    }
+  }
+
+  .fa-instagram {
+    &:hover {
+      color: #e35a39;
+    }
+  }
+
+  .fa-twitter {
+    &:hover {
+      color: #1C9BEB;
+    }
+  }
+}
 .tags.has-addons .tag {
   font-size: 0.6em;
   margin: 2px;
