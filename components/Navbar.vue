@@ -1,7 +1,9 @@
 <template>
   <nav class="navbar container" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <nuxt-link to="/" class="navbar-item"><strong>INVEST</strong>REVIEW</nuxt-link>
+      <nuxt-link to="/" class="navbar-item">
+        <strong>INVEST</strong>REVIEW
+      </nuxt-link>
 
       <a
         role="button"
@@ -18,20 +20,22 @@
 
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-start">
-
         <nuxt-link to="/code" class="navbar-item">kode referal</nuxt-link>
 
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link">More</a>
 
           <div class="navbar-dropdown">
-            <nuxt-link to="about" class="navbar-item">About</nuxt-link>
+            <nuxt-link to="/about" class="navbar-item">About</nuxt-link>
             <hr class="navbar-divider">
-            <a class="navbar-item" target="_blank" href="https://github.com/puterakahfi/refview-invest/issues">Report an issue</a>
+            <a
+              class="navbar-item"
+              target="_blank"
+              href="https://github.com/puterakahfi/refview-invest/issues"
+            >Report an issue</a>
           </div>
         </div>
       </div>
-
     </div>
   </nav>
 </template>
