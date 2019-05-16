@@ -55,7 +55,8 @@
                 </figure>
                 <br>
               </div>
-              <div class="media-content">
+            
+              <div class="">
                 <nuxt-link :to="'/platform/'+item.id">
                   <p class="title is-4">{{ item.title }}</p>
                 </nuxt-link>
