@@ -4,9 +4,8 @@
       <div class="column is-7">
         <section class="hero is-marginless">
           <div class="hero-body">
-
             <div class="titleunderline"></div>
-            <h1 class="title is-1">Review Platform Investasi</h1> 
+            <h1 class="title is-1">Review Platform Investasi</h1>
             <p class="subtitle is-6">
               Refview berbagai platform investasi
               berdasarkan pengalaman dari para lender dari group whatsapp, refview di aplikasi, blog, etc
@@ -15,22 +14,23 @@
 
             <br>
             <div class="cta">
-              <b>
-                <a
-                  class="button is-info is-medium shadowless"
-                  href="https://goo.gl/forms/72OsZ6lTMde84YkO2"
-                  target="_blank"
-                >
-                  <fa :icon="['fab', 'whatsapp']" class="fa-1x"/>&nbsp;Daftar di group wa agri invest
-                </a>
-              </b>
+              <a
+                class="button is-info is-medium shadowless"
+                href="https://goo.gl/forms/72OsZ6lTMde84YkO2"
+                target="_blank"
+              >
+                <fa :icon="['fab', 'whatsapp']" class="fa-1x"/>&nbsp;Daftar di group wa agri invest
+              </a>
             </div>
           </div>
         </section>
       </div>
       <div class="column is-5">
         <figure class="image">
-          <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/finance_0bdk.svg" alt="Placeholder image">
+          <img
+            src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/finance_0bdk.svg"
+            alt="Placeholder image"
+          >
         </figure>
       </div>
     </div>
@@ -50,14 +50,19 @@
                 </nuxt-link>
 
                 <div class="titleunderline"></div>
-                <p class="subtitle is-6">{{ item.tags }}</p>
+
+                <section>
+                  <b-tag>{{ item.tags }}</b-tag>
+                </section>
+
+                <br>
                 <a href>
                   <fa :icon="['fab', 'instagram']" class="fa-1x"/>
                 </a>
                 <a href>
                   <fa :icon="['fab', 'facebook']" class="fa-1x"/>
                 </a>
-                  <a href>
+                <a href>
                   <fa :icon="['fab', 'twitter']" class="fa-1x"/>
                 </a>
               </div>
