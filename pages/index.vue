@@ -15,11 +15,18 @@
             <br>
             <div class="cta">
               <a
-                class="button is-info is-medium shadowless"
+                class="button is-info is-normal shadowless"
                 href="https://goo.gl/forms/72OsZ6lTMde84YkO2"
                 target="_blank"
               >
-                <fa :icon="['fab', 'whatsapp']" class="fa-1x"/>&nbsp;Daftar di group wa agri invest
+                <fa :icon="['fab', 'whatsapp']" class="fa-1x"/>&nbsp;daftar wa group agri invest
+              </a>
+              <a
+                class="button is-success is-normal shadowless"
+                href="/docs/fintechOJK.xlsx"
+                target="_blank"
+              >
+                <fa :icon="['fas', 'download']" class="fa-1x"/>&nbsp;fintecth yg terdaftar di OJK
               </a>
             </div>
           </div>
