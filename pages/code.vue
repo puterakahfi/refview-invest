@@ -31,9 +31,9 @@
           <div class="level-item has-text-left">
             <div>
               <div class="titleunderline is-small"></div>
-              <p class="heading">{{ code.title }}</p>
+              <p class="heading has-text-black">{{ code.title }}</p>
               <p
-                class="title is-2"
+                class="title is-3"
               >{{code.referal[Math.floor(Math.random() * code.referal.length)]}}</p>
             </div>
           </div>
@@ -60,11 +60,7 @@
   box-shadow: none;
   padding: 1rem;
 
-  &:hover {
-    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.04),
-      0 2px 20px 0 rgba(0, 0, 0, 0.06);
-    transform: scale(1.1);
-  }
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.04), 0 2px 20px 0 rgba(0, 0, 0, 0.06);
 }
 </style>
 

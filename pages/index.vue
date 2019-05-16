@@ -5,10 +5,13 @@
         <section class="hero is-marginless">
           <div class="hero-body">
             <div class="titleunderline"></div>
-            <h1 class="title is-1">Review Platform Investasi</h1>
+
+            <h1 class="title is-1">Review platform investasi</h1>
+
             <p class="subtitle is-6">
               Refview berbagai platform investasi
-              berdasarkan pengalaman dari para lender dari group whatsapp, refview di aplikasi, blog, etc
+              berdasarkan pengalaman dari para lender dari group whatsapp,
+              refview di aplikasi, blog, etc
               <br>
             </p>
 
@@ -50,12 +53,12 @@
                 <figure class="image is-128x128">
                   <img :src="item.image" alt="Placeholder image">
                 </figure>
+                <br>
               </div>
               <div class="media-content">
                 <nuxt-link :to="'/platform/'+item.id">
                   <p class="title is-4">{{ item.title }}</p>
                 </nuxt-link>
-
                 <div class="titleunderline"></div>
 
                 <section>
@@ -63,15 +66,27 @@
                 </section>
 
                 <br>
-                <a href>
-                  <fa :icon="['fab', 'instagram']" class="fa-1x"/>
-                </a>
-                <a href>
-                  <fa :icon="['fab', 'facebook']" class="fa-1x"/>
-                </a>
-                <a href>
-                  <fa :icon="['fab', 'twitter']" class="fa-1x"/>
-                </a>
+                <span v-if="typeof item.links !== 'undefined'">
+                  <span :key="link.url" v-for="link in item.links">
+                    <a :href="link.url" target="_blank">
+                      <fa :icon="[link.icon.category, link.icon.icon]" class="fa-1x"/>&nbsp;
+                    </a>
+                  </span>
+                </span>
+                <hr class="is-paddingless">
+                <div class="control">
+                  <b-taglist attached>
+                    <b-tag type="is-success">Rating</b-tag>
+                    <b-tag type="is-dark">
+                      <fa :icon="['fas', 'star']" class="has-text-warning"/>
+                      <fa :icon="['fas', 'star']" class="has-text-warning"/>
+
+                      <fa :icon="['fas', 'star']" class="has-text-warning"/>&nbsp;
+                      <b>3.5</b> / 5
+                    </b-tag>
+                    
+                  </b-taglist>
+                </div>
               </div>
             </div>
 
