@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="columns align-items-center">
-      <div class="column is-7">
+      <div class="column is-6">
         <section class="hero is-marginless">
           <div class="hero-body">
             <div class="titleunderline"></div>
@@ -35,7 +35,7 @@
           </div>
         </section>
       </div>
-      <div class="column is-5">
+      <div class="column is-6">
         <figure class="image">
           <img
             src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/finance_0bdk.svg"
@@ -50,34 +50,19 @@
           <div class="card-content">
             <div class="media">
               <div class="media-left">
-                <figure class="image is-128x128">
+                <figure class="image is-96x96">
                   <img :src="item.image" alt="Placeholder image">
                 </figure>
-                <br>
               </div>
+              <div class="media-content">
+                <div class="titleunderline is-marginless"></div>
 
-              <div class>
                 <nuxt-link :to="'/platform/'+item.id">
-                  <p class="title is-4">{{ item.title }}</p>
+                  <p class="title is-3">{{ item.title }}</p>
                 </nuxt-link>
-                <div class="titleunderline"></div>
 
-                <section>
-                  <b-tag>{{ item.tags }}</b-tag>
-                </section>
-
-                <br>
-                <span v-if="typeof item.links !== 'undefined'">
-                  <span :key="link.url" v-for="link in item.links">
-                    <a :href="link.url" target="_blank">
-                      <fa :icon="[link.icon.category, link.icon.icon]" class="fa-1x"/>&nbsp;
-                    </a>
-                  </span>
-                </span>
-                <hr class="is-paddingless">
                 <div class="control">
                   <b-taglist attached class="rating">
-                    <b-tag type="is-success"><b>rating</b></b-tag>
                     <b-tag type="is-dark">
                       <fa :icon="['fas', 'star']" class="has-text-warning"/>
                       <fa :icon="['fas', 'star']" class="has-text-warning"/>
@@ -88,9 +73,26 @@
                   </b-taglist>
                 </div>
               </div>
-            </div>
+            </div> <br>
+            <div class="content">
+              <p class="subtitle is-size-6">{{ item.description }}</p>
 
-            <div class="content">{{ item.description }}</div>
+              <section>
+                <b-tag>{{ item.tags }}</b-tag>
+              </section>
+
+              <br>
+
+              <p class="subtitle is-5">
+                <span v-if="typeof item.links !== 'undefined'">
+                  <span :key="link.url" v-for="link in item.links">
+                    <a :href="link.url" target="_blank">
+                      <fa :icon="[link.icon.category, link.icon.icon]" class="fa-1x"/>&nbsp;
+                    </a>
+                  </span>
+                </span>
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -116,7 +118,8 @@ export default {
 
 <style sccoped>
 .tags.has-addons .tag {
-  font-size: .6em;
+  font-size: 0.6em;
+  margin: 2px;
 }
 .btn.btn-lg {
   padding: 0.55rem 1.5rem;
