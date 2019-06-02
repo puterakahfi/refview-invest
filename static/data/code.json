@@ -23,7 +23,22 @@
         "id": "3",
         "title": "Tanifund",
         "referal": [
-            "7301542"
+            "7301542",
+            "0329389"
+        ]
+    },
+    {
+        "id": "4",
+        "title": "Koinworks",
+        "referal": [
+            "42354"
+        ]
+    },
+    {
+        "id": "5",
+        "title": "Amartha",
+        "referal": [
+            "SI014651"
         ]
     }
 ]

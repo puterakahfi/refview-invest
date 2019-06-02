@@ -6,7 +6,7 @@
           <div class="hero-body">
             <div class="titleunderline"></div>
 
-            <h1>Kode referal</h1>
+            <h1 class="title is-1">Kode referal</h1>
             <h2
               class="subtitle"
             >Gunakan kode referal ketika mendaftar untuk mendapatkan berbagai penawaran menarik</h2>
